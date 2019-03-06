@@ -1,0 +1,19 @@
+.user-info {
+  color: whitesmoke;
+}
+.clock {
+  width: 200px !important;
+  color: black;
+}
+.user-info {
+  color: black;
+}
+
+.remaining_count {
+  margin-right: 25px;
+  font-size: 1.15rem;
+}
+
+.welcome-name {
+  margin-left: 20px;
+}

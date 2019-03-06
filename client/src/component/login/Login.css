@@ -1,0 +1,20 @@
+.input-group.input-group-lg {
+  width: 450px;
+  margin-top: 25vh;
+}
+.container.input-group.input-group-lg {
+  justify-content: center;
+}
+
+.input-group-append {
+  background-color: grey;
+}
+
+.btn-outline-secondary {
+  color: aliceblue;
+}
+@media (max-width: 500px) {
+  .input-group.input-group-lg {
+    width: 90%;
+  }
+}

@@ -1,0 +1,55 @@
+/* STYLES FOR INDIVIDUAL TILE */
+.tile-body {
+  font-size: 2.2rem;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  font-family: "Old Standard TT", serif;
+}
+.blank-tile {
+  background: transparent !important;
+}
+.tile-body:hover {
+  background-color: darkslategray;
+  border-color: black;
+  color: wheat;
+  transition: all 0.3s ease-in-out;
+}
+
+/* TILES_GRID STYLES STARTS HERE */
+.grid-container {
+  width: 20.2rem;
+  margin-top: 15vh;
+}
+@media (max-width: 720 px) {
+  .grid-container {
+    margin-top: 10vh;
+  }
+}
+
+.btn.btn-lg {
+  width: 150px;
+  margin: 10px auto;
+}
+
+.puzzle--square-empty,
+.puzzle--square-pair,
+.puzzle--square-odd {
+  background-color: grey;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.4rem;
+  border: 2px solid rgb(20, 0, 0);
+  display: flex;
+  float: left;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.btn.btn-lg.btn-outline-secondary {
+  color: grey;
+  padding: 0;
+}
+.btn.btn-lg.btn-outline-secondary:hover {
+  color: white;
+}
